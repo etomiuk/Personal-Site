@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  /* equivalent to above
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    */
+    color: #405B63;
+  text-align: center; /*centers everything in top div*/
+}
+
+h1 {
+  font-family: "Yomogi", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #93b5c6;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+  color: #93b5c6;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Amatic SC", cursive;
+  color: #c9ccd5;
+  font-size: 1.5rem;
+}
+
+hr{
+    border-style: dotted none none none; /* or do border-bottom to none */
+    width: 5%;
+    border-width: 5px;
+    border-color: #FFE3E3;
+}
+
+.footer-link {
+  color: #405B63;
+  line-height: 2;
+  margin: 30px;
+  font-family: "Poiret One", cursive;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.footer-link:hover{
+    color: #C9CCD5;
+}
+
+p {
+  font-family: "Poiret One", cursive;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+.top-container {
+  /* because it has a header element, the width is the whole screen*/
+  background-color: #ffe3e3;
+  padding-top: 100px;
+  position: relative; /*relative to body*/
+}
+
+.middle-container{
+    margin-top: 100px;
+}
+
+.profile{
+    margin: 50px auto 50px auto;
+    width: 30%;
+}
+
+.bottom-container {
+  background-color: #93B5C6;
+  padding: 30px;
+}
+
+.bottom-cloud {
+  position: absolute; /* removes the bottom cloud from the flow to center the mountain*/
+  left: 300px;
+  bottom: 300px; /*30 from the bottom line of the div*/
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.music {
+  width: 25%; /*25% of its parent (1/4 width of the width witch is 50%)*/
+  float: left;
+  margin-right: 30px;
+}
+
+.paint {
+    width: 25%; /*25% of its parent (1/4 width of the width witch is 50%)*/
+    float: right;
+    margin-left: 30px;
+  }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto; /* centers the div */
+    text-align: left; /*overrides the center in body */
+    line-height: 2;
+}
+
+.skills{
+    margin: 50px auto 0 auto;
+}
+
+.contact-me{
+    margin: 50px auto 50px auto;
+}
+
+.btn {
+    background: #E4D8DC;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Amatic SC", cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 30px auto 30px auto;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background: #C9CCD5;
+    text-decoration: none;
+  }
+
+  .copyright{
+    color: #C9CCD5;
+    font-size: 0.9rem;
+  }
